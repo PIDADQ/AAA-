@@ -28,6 +28,7 @@ Fraud-R1-DSTAR/
 │   ├── train_augmented.py            # 组合策略增强后热启动微调
 │   ├── ablation_and_visualization.py # 消融实验与可视化
 │   ├── generate_figures.py           # 论文图表复现
+│   ├── evaluate_augmentedplus.py     # 增强测试集批量评估并保存误分类样本到csv
 │   └── requirements.txt              # Python 依赖
 │
 ├── data/                             # 数据集与增强结果
