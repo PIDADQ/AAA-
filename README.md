@@ -45,6 +45,11 @@ Fraud-R1-DSTAR/
 │   ├── metrics_comparison_english.png
 │   ├── robustness_drop_english.png
 │   ├── training_curves_english.png
+│   ├── wrong_predictions_original.csv      # 原始测试集错分样本
+│   ├── wrong_predictions_credibility.csv    # 建立信任（可信度增强）策略错分样本
+│   ├── wrong_predictions_urgency.csv       # 制造紧迫感策略错分样本
+│   ├── wrong_predictions_emotional.csv      # 情感操纵策略错分样本
+│   ├── wrong_predictions_combined.csv       # 三策略叠加组合增强错分样本
 │   └── figures/
 │       ├── model_architecture.png    # 模型架构图
 │       ├── formula_visualization.png # Top-k 与 L1 训练曲线
